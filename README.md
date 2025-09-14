@@ -1,5 +1,25 @@
 #  SportsHub – Web Technologies Project
 
+# Eshop-Sport
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](https://github.com/ImZaharias/Eshop-Sport/blob/main/1.png)
+
+### 🛍️ Products Page
+![Products](https://github.com/ImZaharias/Eshop-Sport/blob/main/2.png)
+
+### 🛠️ Services Page
+![Services](https://github.com/ImZaharias/Eshop-Sport/blob/main/3.png)
+
+### ✍️ Register Form
+![Register](https://github.com/ImZaharias/Eshop-Sport/blob/main/4.png)
+
+### ℹ️ About Page
+![About](https://github.com/ImZaharias/Eshop-Sport/blob/main/5.png)
+
+
 ##  Σκοπός
 Υλοποίηση ενός **ηλεκτρονικού καταστήματος αθλητικών ειδών** με χρήση **HTML5, CSS3, JavaScript, PHP, MySQL**.
 
