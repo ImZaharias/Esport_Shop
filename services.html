@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Υπηρεσίες</title>
+  <!-- Σύνδεση με CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Κεφαλίδα με τίτλο και μενού -->
+  <header>
+    <h1>eHellenicSports</h1>
+    <nav>
+      <a href="index.html">Αρχική</a>
+      <a href="products.html">Προϊόντα</a>
+      <a href="services.html">Υπηρεσίες</a>
+      <a href="register.html">Εγγραφή</a>
+      <a href="about.html">Σχετικά</a>
+    </nav>
+  </header>
+
+  <!-- Κύριο περιεχόμενο -->
+  <main>
+    <!-- Διάταξη σε 2 στήλες -->
+    <div class="twocol">
+
+      <!-- Αριστερή στήλη: Υπηρεσίες -->
+      <section>
+        <h2>Υπηρεσίες</h2>
+        <ul>
+          <li><strong>Personal Training</strong> – προγράμματα προσαρμοσμένα στους στόχους σου</li>
+          <li><strong>Gear Fitting</strong> – σωστή επιλογή και εφαρμογή εξοπλισμού</li>
+          <li><strong>Αποστολές</strong> – παράδοση σε όλη την Ελλάδα</li>
+        </ul>
+
+        <!-- Προτάσεις προϊόντων ανά καιρικές συνθήκες -->
+        <div class="grid" style="margin-top:12px">
+          <div class="card">
+            <h3>Συνδυασμοί για Βροχή</h3>
+            <p>Αδιάβροχα και υποδήματα με πρόσφυση.</p>
+            <!-- Σύνδεση με προϊόντα σελίδας -->
+            <p><a href="products.html?cond=rain#table">Δες σχετικά προϊόντα</a></p>
+          </div>
+          <div class="card">
+            <h3>Συνδυασμοί για Κρύο</h3>
+            <p>Θερμικά και insulated μπουφάν.</p>
+            <!-- Σύνδεση με προϊόντα σελίδας -->
+            <p><a href="products.html?cond=cold#table">Δες σχετικά προϊόντα</a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Δεξιά στήλη: Ενσωματωμένος χάρτης -->
+      <aside>
+        <h2>Χάρτης καταστημάτων</h2>
+        <iframe 
+          src="https://www.openstreetmap.org/export/embed.html?bbox=23.7,37.9,23.8,38.0&layer=mapnik" 
+          width="100%" height="300" title="Χάρτης" loading="lazy">
+        </iframe>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Υποσέλιδο -->
+  <footer>
+    <p>&copy; 2025 eHellenicSports</p>
+  </footer>
+</body>
+</html>
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="utf-8">
+  <title>Εγγραφή</title>
+  <!-- Σύνδεση με εξωτερικό CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Κεφαλίδα με τίτλο και μενού πλοήγησης -->
+  <header>
+    <h1>eHellenicSports</h1>
+    <nav>
+      <a href="index.html">Αρχική</a>
+      <a href="products.html">Προϊόντα</a>
+      <a href="services.html">Υπηρεσίες</a>
+      <a href="register.html">Εγγραφή</a>
+      <a href="about.html">Σχετικά</a>
+    </nav>
+  </header>
+
+  <!-- Κύριο περιεχόμενο -->
+  <main>
+    <!-- Εμφάνιση λαθών (JavaScript validation) -->
+    <p id="errors"></p>
+
+    <!-- Φόρμα εγγραφής χρήστη -->
+    <form id="regform" method="post" action="php/register.php" name="mysignin">
+      <fieldset>
+        <legend>Προσωπικά στοιχεία</legend>
+
+        <!-- Ονοματεπώνυμο -->
+        <p>
+          <label for="flname">Ονοματεπώνυμο:</label>
+          <input type="text" id="flname" name="flname" placeholder="Ζαχαρίας Πολυτσέρης" required>
+        </p>
+
+        <!-- Email -->
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="zahos@example.com" required>
+        </p>
+
+        <!-- Username -->
+        <p>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" minlength="3" placeholder="zachpoly" required>
+        </p>
+
+        <!-- Password -->
+        <p>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" minlength="6" placeholder="******" required>
+        </p>
+
+        <!-- Dropdown επιλογής ενδιαφέροντος -->
+        <p>
+          <label for="mathima">Αθλητικό ενδιαφέρον:</label>
+          <select id="mathima" name="mathima">
+            <option value="running">Running</option>
+            <option value="football">Football</option>
+            <option value="outdoor">Outdoor</option>
+          </select>
+        </p>
+
+        <!-- Επιλογή για Newsletter -->
+        <p>
+          <span>Newsletter;</span>
+          Ναι <input type="radio" id="newsY" name="newsletter" value="yes">
+          Όχι <input type="radio" id="newsN" name="newsletter" value="no" checked>
+        </p>
+
+        <!-- Σχόλια -->
+        <p>
+          <label for="comments">Σχόλια:</label>
+          <textarea id="comments" name="comments" rows="3" cols="30"></textarea>
+        </p>
+
+        <!-- Κουμπιά αποστολής / καθαρισμού -->
+        <p>
+          <input id="mysubmt" type="button" value="Αποστολή">
+          <input type="reset" value="Καθαρισμός">
+        </p>
+      </fieldset>
+    </form>
+
+    <!-- Σύνδεσμος για ανάκτηση εγγραφής -->
+    <p>
+      <a href="php/retrieve.php">Έχεις ήδη εγγραφεί; Δες την εγγραφή σου με το email</a>
+    </p>
+  </main>
+
+  <!-- Υποσέλιδο -->
+  <footer>
+    <p>&copy; 2025 eHellenicSports</p>
+  </footer>
+
+  <!-- Σύνδεση με JS αρχείο για validation -->
+  <script src="js/validate.js"></script>
+</body>
+</html>
+

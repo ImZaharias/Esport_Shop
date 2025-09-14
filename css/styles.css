@@ -1,0 +1,99 @@
+/* ===== Βασικές ρυθμίσεις ===== */
+* { box-sizing: border-box; }
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: #222;
+  border: 5px solid cornflowerblue; /* περιθώριο γύρω από όλη τη σελίδα */
+  margin: 12px;
+  padding: 16px;
+}
+
+main { max-width: 960px; margin: 0 auto; padding: 20px; }
+
+/* ===== Κεφαλίδα, μενού και υποσέλιδο ===== */
+header { background:#0f172a; color:#fff; padding:16px 20px; }
+header h1 { margin:0; font-size:1.4rem; }
+
+nav { margin-top:8px; display:flex; gap:12px; flex-wrap:wrap; }
+nav a { color:#93c5fd; text-decoration:none; padding:4px 8px; border-radius:6px; }
+nav a:hover { background:#1f2937; }
+
+footer { padding:16px 20px; text-align:center; color:#475569; }
+
+/* ===== Γενικά blocks (hero, κάρτες) ===== */
+.hero { background:#eef2ff; padding:24px; border-radius:12px; margin-bottom:16px; }
+
+.grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:12px; }
+
+.card {
+  background:#f8fafc;
+  border:1px solid #e5e7eb;
+  border-radius:12px;
+  padding:16px;
+  box-shadow:0 1px 2px rgba(0,0,0,.04);
+}
+
+.muted { color:#64748b; font-size:.9rem; }
+
+/* ===== Κουμπιά ===== */
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+a.button {
+  display:inline-block;
+  padding:8px 12px;
+  border:1px solid #e5e7eb;
+  border-radius:10px;
+  background:#f8fafc;
+  text-decoration:none;
+  cursor:pointer;
+}
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+a.button:hover {
+  background:#eef2ff;
+}
+
+/* ===== Widget για τον καιρό ===== */
+section.widget { margin-top:20px; }
+
+/* ===== Πίνακας προϊόντων ===== */
+.product-table { width:100%; border-collapse:separate; border-spacing:0; }
+.product-table caption { caption-side:top; font-weight:600; padding:8px; }
+.product-table thead th { background:#f1f5f9; }
+.product-table th, .product-table td { border:1px solid #e5e7eb; padding:10px; }
+
+.product-table td.prod { display:flex; align-items:center; gap:10px; }
+.product-table img {
+  width:56px; height:56px; object-fit:cover;
+  border-radius:10px; margin-right:10px; border:1px solid #e5e7eb;
+}
+
+/* ===== Σελίδα Σχετικά ===== */
+p.first-indent { text-indent:2ch; } /* εσοχή 1ης γραμμής */
+p.highlight { background:#93c5fd; font-size:25px; text-align:right; padding:10px 12px; border-radius:8px; }
+hr.half { width:50%; height:3px; border:0; background:#94a3b8; margin:16px 0; }
+
+.section-list { border:1px solid #e5e7eb; padding:12px 20px; margin:0 auto; max-width:900px; }
+.section-list ol { margin:0; padding-left:40px; list-style-position:outside; }
+
+/* ===== Φόρμα Εγγραφής ===== */
+#regform { display:table; border-collapse:separate; border-spacing:6px; }
+#regform p { display:table-row; }
+#regform label, #regform input, #regform select, #regform textarea { display:table-cell; }
+#errors { color:red; min-height:1.2em; }
+
+/* ===== Διάταξη 2 στηλών (Υπηρεσίες) ===== */
+.twocol { display:grid; grid-template-columns: 2fr 1fr; gap:16px; align-items:start; }
+@media (max-width: 900px) {
+  .twocol { grid-template-columns: 1fr; }
+}
+
+
+
+
+

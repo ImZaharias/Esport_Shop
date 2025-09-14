@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Προϊόντα</title>
+  <!-- Σύνδεση με εξωτερικό CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="top">
+
+  <!-- Κεφαλίδα με τίτλο και μενού πλοήγησης -->
+  <header>
+    <h1>eHellenicSports</h1>
+    <nav>
+      <a href="index.html">Αρχική</a>
+      <a href="products.html">Προϊόντα</a>
+      <a href="services.html">Υπηρεσίες</a>
+      <a href="register.html">Εγγραφή</a>
+      <a href="about.html">Σχετικά</a>
+    </nav>
+  </header>
+
+  <!-- Κύριο περιεχόμενο -->
+  <main>
+    <!-- Σύνδεσμος για επικοινωνία μέσω email -->
+    <p>
+      Θέλεις βοήθεια; <a href="mailto:eHellenicSports@hotmail.gr">Στείλε μας email</a>
+    </p>
+
+    <!-- Πίνακας προϊόντων -->
+    <table class="product-table" id="table">
+      <caption>Δημοφιλή είδη</caption>
+      <thead>
+        <tr>
+          <th>Κωδ.</th>
+          <th>Προϊόν</th>
+          <th>Κατηγορία</th>
+          <th>Τιμή</th>
+        </tr>
+      </thead>
+      <tbody id="prodBody">
+        <!-- Προϊόν 1 -->
+        <tr data-tags="sun">
+          <td>SP-100</td>
+          <td class="prod">
+            <img src="img/shoes.jpg" alt="Αθλητικά παπούτσια">
+            <div>
+              <strong>Αθλητικά Παπούτσια</strong>
+              <div class="muted">Απορρόφηση κραδασμών, ελαφριά σόλα</div>
+            </div>
+          </td>
+          <td>Running</td>
+          <td>79,90€</td>
+        </tr>
+
+        <!-- Προϊόν 2 -->
+        <tr data-tags="rain,wind">
+          <td>SP-220</td>
+          <td class="prod">
+            <img src="img/jacket.jpg" alt="Μπουφάν αντιανεμικό">
+            <div>
+              <strong>Μπουφάν Αντιανεμικό</strong>
+              <div class="muted">Αδιάβροχο, αναπνεύσιμο</div>
+            </div>
+          </td>
+          <td>Outdoor</td>
+          <td>59,90€</td>
+        </tr>
+
+        <!-- Προϊόν 3 -->
+        <tr data-tags="cold">
+          <td>SP-330</td>
+          <td class="prod">
+            <img src="img/ball.jpg" alt="Μπάλες ποδοσφαίρου">
+            <div>
+              <strong>Μπάλες Ποδοσφαίρου (set)</strong>
+              <div class="muted">Ραφή αντοχής, all-weather</div>
+            </div>
+          </td>
+          <td>Football</td>
+          <td>24,90€</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Σύνδεσμος επιστροφής στην κορυφή -->
+    <p style="margin-top:12px"><a href="#top">Επιστροφή στην κορυφή</a></p>
+  </main>
+
+  <!-- Υποσέλιδο -->
+  <footer>
+    <p>&copy; 2025 eHellenicSports</p>
+  </footer>
+
+</body>
+</html>
+

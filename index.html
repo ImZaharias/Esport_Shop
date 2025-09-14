@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Αρχική</title>
+  <!-- Σύνδεση με εξωτερικό CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="top">
+  
+  <!-- Κεφαλίδα με τίτλο και μενού πλοήγησης -->
+  <header>
+    <h1>eHellenicSports</h1>
+    <nav>
+      <a href="index.html">Αρχική</a>
+      <a href="products.html">Προϊόντα</a>
+      <a href="services.html">Υπηρεσίες</a>
+      <a href="register.html">Εγγραφή</a>
+      <a href="about.html">Σχετικά</a>
+    </nav>
+  </header>
+
+  <!-- Κύριο περιεχόμενο -->
+  <main>
+    <!-- Εισαγωγή / Γενικές πληροφορίες -->
+    <section class="hero">
+      <h2>eHellenicSports</h2>
+      <p>
+        Καλωσορίσατε στο <strong>eHellenicSports</strong>!  
+        Πρόκειται για μια εκπαιδευτική εφαρμογή που αναπτύχθηκε στο πλαίσιο του 
+        μαθήματος <em>Τεχνολογίες Διαδικτύου</em>. 
+        Εδώ θα βρείτε προϊόντα αθλητικού εξοπλισμού, πληροφορίες για τις υπηρεσίες μας 
+        και τη δυνατότητα εγγραφής χρηστών. 
+        Ο καιρός προβάλλεται <ins>ενσωματωμένος στη σελίδα</ins>, 
+        ενώ έχετε τη δυνατότητα να δείτε <strong>προτάσεις προϊόντων ανάλογα με τις καιρικές συνθήκες</strong>, 
+        ώστε να επιλέξετε πιο εύκολα τι σας ταιριάζει.
+      </p>
+    </section>
+
+    <!-- Ενσωματωμένος καιρός (iframe, χωρίς redirect) -->
+    <section class="widget">
+      <h3>Καιρός στην Ελλάδα</h3>
+      <p>Δες άμεσα άνεμο/βροχή/θερμοκρασία μέσα στη σελίδα μας.</p>
+      <iframe
+        title="Καιρός - Wind map"
+        width="100%"
+        height="360"
+        loading="lazy"
+        style="border:0;border-radius:12px"
+        src="https://embed.windy.com/embed2.html?lat=38.5&lon=23.7&detailLat=37.98&detailLon=23.72&zoom=5&level=surface&overlay=rain&product=ecmwf&menu=true&message=true&marker=true&calendar=now&pressure=true&type=map&location=coordinates&detail=true&metricWind=km%2Fh&metricTemp=%C2%B0C">
+      </iframe>
+    </section>
+
+    <!-- Προτάσεις προϊόντων ανά καιρικές συνθήκες (στατικά cards) -->
+    <section>
+      <h3>Προτάσεις προϊόντων ανά καιρό</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>☀️ Ηλιοφάνεια</h4>
+          <p>Ιδανικά running παπούτσια & ελαφριές μπλούζες.</p>
+        </div>
+        <div class="card">
+          <h4>🌧️ Βροχή</h4>
+          <p>Αδιάβροχο μπουφάν & αντιολισθητικά παπούτσια.</p>
+        </div>
+        <div class="card">
+          <h4>❄️ Κρύο</h4>
+          <p>Θερμικά κολάν & insulated μπουφάν.</p>
+        </div>
+        <div class="card">
+          <h4>💨 Άνεμος</h4>
+          <p>Αντιανεμικά τζάκετ & windbreakers.</p>
+        </div>
+      </div>
+
+      <!-- Σύνδεσμοι προς άλλες σελίδες -->
+      <p style="margin-top:8px">
+        <a class="button" href="products.html">Δες όλα τα προϊόντα</a>
+        <a class="button" href="register.html" style="margin-left:8px">Εγγραφή</a>
+        <a class="button" href="php/retrieve.php" style="margin-left:8px">Ανάκτηση εγγραφής</a>
+      </p>
+    </section>
+
+    <!-- Σύντομη λίστα με τα δυνατά σημεία του site -->
+    <section>
+      <h3>Γιατί eHellenicSports;</h3>
+      <ul>
+        <li>Γενικές πληροφορίες & προτάσεις ανά εποχή</li>
+        <li>Ζωντανός καιρός <strong>χωρίς</strong> ανακατεύθυνση</li>
+        <li>Καθαρή πλοήγηση και απλή εμπειρία</li>
+      </ul>
+    </section>
+
+    <!-- Σύνδεσμος επιστροφής στην κορυφή -->
+    <a href="#top">Επιστροφή στην κορυφή</a>
+  </main>
+
+  <!-- Υποσέλιδο -->
+  <footer>
+    <p>&copy; 2025 eHellenicSports</p>
+  </footer>
+</body>
+</html>
+
