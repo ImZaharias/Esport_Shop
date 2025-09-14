@@ -10,7 +10,7 @@
 | 🛍️ **Products Page** <br> Displays a table with products, categories, prices, and images. | ![Products](https://github.com/ImZaharias/Eshop-Sport/blob/main/2.png) |
 | 🛠️ **Services Page** <br> Shows available services and an embedded map with store locations. | ![Services](https://github.com/ImZaharias/Eshop-Sport/blob/main/3.png) |
 | ✍️ **Register Form** <br> User registration form with JavaScript validation and PHP/MySQL storage. | ![Register](https://github.com/ImZaharias/Eshop-Sport/blob/main/4.png) |
-| ℹ️ **About Page** <br> Information about the creator, text formatting, and technology list. | ![About](https://github.com/ImZaharias/Eshop-Sport/blob/main/5.png) |
+| ℹ️ **About Page** <br> Information about the creator, text formatting, and technology list. | ![About](https://github.com/ImZaharias/Eshop-Sport/blob/main/5.1.png) |
 
 ---
 
