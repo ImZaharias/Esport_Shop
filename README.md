@@ -1,58 +1,53 @@
-#  SportsHub – Web Technologies Project
+# SportsHub – Web Technologies Project
 
 # Eshop-Sport
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
-![Home](https://github.com/ImZaharias/Eshop-Sport/blob/main/1.png)
-
-### 🛍️ Products Page
-![Products](https://github.com/ImZaharias/Eshop-Sport/blob/main/2.png)
-
-### 🛠️ Services Page
-![Services](https://github.com/ImZaharias/Eshop-Sport/blob/main/3.png)
-
-### ✍️ Register Form
-![Register](https://github.com/ImZaharias/Eshop-Sport/blob/main/4.png)
-
-### ℹ️ About Page
-![About](https://github.com/ImZaharias/Eshop-Sport/blob/main/5.png)
-
-
-##  Σκοπός
-Υλοποίηση ενός **ηλεκτρονικού καταστήματος αθλητικών ειδών** με χρήση **HTML5, CSS3, JavaScript, PHP, MySQL**.
+| Page | Preview |
+|------|---------|
+| 🏠 **Home Page** <br> Contains general info, embedded weather (iframe), and product suggestions. | ![Home](https://github.com/ImZaharias/Eshop-Sport/blob/main/1.png) |
+| 🛍️ **Products Page** <br> Displays a table with products, categories, prices, and images. | ![Products](https://github.com/ImZaharias/Eshop-Sport/blob/main/2.png) |
+| 🛠️ **Services Page** <br> Shows available services and an embedded map with store locations. | ![Services](https://github.com/ImZaharias/Eshop-Sport/blob/main/3.png) |
+| ✍️ **Register Form** <br> User registration form with JavaScript validation and PHP/MySQL storage. | ![Register](https://github.com/ImZaharias/Eshop-Sport/blob/main/4.png) |
+| ℹ️ **About Page** <br> Information about the creator, text formatting, and technology list. | ![About](https://github.com/ImZaharias/Eshop-Sport/blob/main/5.png) |
 
 ---
 
-##  Δομή ιστοτόπου
-- `index.html` → Κεντρική σελίδα με μενού, περιγραφή, iframe καιρού.
-- `about.html` → Σελίδα δημιουργού.
-- `products.html` → Σελίδα προϊόντων με πίνακα + εικόνες.
-- `services.html` → Σελίδα υπηρεσιών με grid + iframe χάρτη.
-- `register.html` → Σελίδα εγγραφής με φόρμα και JS validation.
-- `php/register.php` → Αποθήκευση στοιχείων στη βάση.
-- `php/retrieve.php` → Ανάκτηση στοιχείων με email.
-- `css/styles.css` → Εξωτερικά styles (μορφοποίηση).
-- `js/validate.js` → Έλεγχος φόρμας (JavaScript).
-- `schema.sql` → Script δημιουργίας DB & πίνακα.
+## 🎯 Purpose
+Implementation of an **educational e-shop for sports equipment** using **HTML5, CSS3, JavaScript, PHP, and MySQL**.
 
 ---
 
-##  Τεχνολογίες
-- **HTML5** → σελίδες, λίστες, πίνακες, iframe, φόρμες.
-- **CSS3** → responsive εμφάνιση, κουμπιά, πίνακες.
-- **JavaScript** → validation φόρμας (regex για ελληνικά, required, μήκη).
-- **PHP** → σύνδεση DB, prepared statements, password hashing.
-- **MySQL** → βάση `sports_shop`, πίνακας `users`.
+## 📂 Project Structure
+- `index.html` → Home page with menu, description, and weather iframe.
+- `about.html` → About/Creator page.
+- `products.html` → Product list with table + images.
+- `services.html` → Services page with grid + embedded map.
+- `register.html` → Registration form with JS validation.
+- `php/register.php` → Store user info in DB.
+- `php/retrieve.php` → Retrieve user info by email.
+- `css/styles.css` → Global styles.
+- `js/validate.js` → Form validation (JavaScript).
+- `schema.sql` → Database creation script.
 
 ---
 
-##  Ασφάλεια
-- Χρήση **prepared statements** για αποφυγή SQL Injection.
-- Αποθήκευση κωδικών με **password_hash()** (bcrypt).
+## 🛠️ Tech Stack
+- **HTML5** → pages, lists, tables, iframes, forms  
+- **CSS3** → responsive layout, buttons, tables  
+- **JavaScript** → client-side validation (regex, required fields)  
+- **PHP** → DB connection, prepared statements, password hashing  
+- **MySQL** → database `sports_shop`, table `users`  
 
 ---
 
-## 👤 Δημιουργός
-Ζαχαρίας Πολυτσέρης
+## 🔒 Security
+- **Prepared statements** to prevent SQL injection  
+- Password storage with **`password_hash()` (bcrypt)**  
+
+---
+
+## 👤 Creator
+**Ζαχαρίας Πολυτσέρης**
+
