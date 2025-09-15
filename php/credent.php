@@ -1,7 +1,7 @@
 <?php
 // Ρυθμίσεις σύνδεσης με MySQL (για χρήση σε XAMPP)
 
-// Server της βάσης (συνήθως localhost για XAMPP)
+// Server της βάσης (localhost για XAMPP)
 define('DB_SERVER', 'localhost');
 
 // Όνομα χρήστη (default = root στο XAMPP)

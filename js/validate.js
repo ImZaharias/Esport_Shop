@@ -1,15 +1,15 @@
 (function() {
-  // Κύρια συνάρτηση ελέγχου φόρμας
+  // συνάρτηση ελέγχου φόρμας
   function checkMe() {
     var errors = []; // λίστα με μηνύματα λαθών
 
-    // Πιάσε τα πεδία φόρμας
+    // Βρεσ τα πεδία φόρμας
     var flname = document.getElementById("flname");
     var email = document.getElementById("email");
     var username = document.getElementById("username");
     var password = document.getElementById("password");
 
-    // Έλεγχος ονοματεπώνυμου -> μόνο ελληνικοί χαρακτήρες
+    // Έλεγχος ονοματεπώνυμου μόνο ελληνικοί χαρακτήρες REGEX
     if (!/^[\u0370-\u03FF\u1F00-\u1FFF\s-]+$/u.test(flname.value.trim())){
       errors.push("Το ονοματεπώνυμο πρέπει να περιέχει μόνο ελληνικούς χαρακτήρες.");
       flname.style.border = "2px solid red"; // κόκκινο περίγραμμα αν λάθος
@@ -51,6 +51,6 @@
     }
   }
 
-  // Όταν πατηθεί το κουμπί "Αποστολή", τρέχει το checkMe
+  // Όταν πατηθεί το κουμπί Αποστολή, τρέχει το checkMe
   document.getElementById("mysubmt").addEventListener("click", checkMe);
 })();

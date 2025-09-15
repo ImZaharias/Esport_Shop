@@ -10,7 +10,6 @@ $email = trim($_GET['email'] ?? '');
 <head>
   <meta charset="utf-8">
   <title>Ανάκτηση χρήστη</title>
-  <!-- CSS -->
   <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -24,7 +23,6 @@ $email = trim($_GET['email'] ?? '');
     </nav>
   </header>
 
-  <!-- Κύριο περιεχόμενο -->
   <main>
     <!-- Φόρμα για αναζήτηση χρήστη με email -->
     <form method="get" action="retrieve.php" style="display:flex; gap:8px; align-items:center;">
@@ -66,7 +64,6 @@ $mysqli->close();
 ?>
   </main>
 
-  <!-- Υποσέλιδο -->
   <footer>
     <p>&copy; 2025 eHellenicSports</p>
   </footer>

@@ -3,12 +3,11 @@
 <head>
   <meta charset="utf-8">
   <title>Εγγραφή</title>
-  <!-- Σύνδεση με εξωτερικό CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <!-- Κεφαλίδα με τίτλο και μενού πλοήγησης -->
+  <!-- Τίτλος & μενού πλοήγησης -->
   <header>
     <h1>eHellenicSports</h1>
     <nav>
@@ -20,9 +19,8 @@
     </nav>
   </header>
 
-  <!-- Κύριο περιεχόμενο -->
   <main>
-    <!-- Εμφάνιση λαθών (JavaScript validation) -->
+    <!-- Εμφάνιση λαθών (χώρος για να γράψει τα μηνύματα Λαθπών validate.js) -->
     <p id="errors"></p>
 
     <!-- Φόρμα εγγραφής χρήστη -->
@@ -54,7 +52,7 @@
           <input type="password" id="password" name="password" minlength="6" placeholder="******" required>
         </p>
 
-        <!-- Dropdown επιλογής ενδιαφέροντος -->
+        <!-- Dropdown ενδιαφέροντος -->
         <p>
           <label for="mathima">Αθλητικό ενδιαφέρον:</label>
           <select id="mathima" name="mathima">
@@ -91,12 +89,10 @@
     </p>
   </main>
 
-  <!-- Υποσέλιδο -->
   <footer>
     <p>&copy; 2025 eHellenicSports</p>
   </footer>
 
-  <!-- Σύνδεση με JS αρχείο για validation -->
   <script src="js/validate.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
--- Δημιουργία βάσης και πίνακα χρηστών (MySQL)
+-- Δημιουργία βάσης και πίνακα USER (MySQL)
 CREATE DATABASE IF NOT EXISTS sports_shop CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE sports_shop;
 
