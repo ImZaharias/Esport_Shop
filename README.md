@@ -6,11 +6,11 @@
 
 | Page | Preview |
 |------|---------|
-| 🏠 **Home Page** <br> Contains general info, embedded weather (iframe), and product suggestions. | ![Home](https://github.com/ImZaharias/Eshop-Sport/blob/main/1.png) |
-| 🛍️ **Products Page** <br> Displays a table with products, categories, prices, and images. | ![Products](https://github.com/ImZaharias/Eshop-Sport/blob/main/2.png) |
-| 🛠️ **Services Page** <br> Shows available services and an embedded map with store locations. | ![Services](https://github.com/ImZaharias/Eshop-Sport/blob/main/3.png) |
-| ✍️ **Register Form** <br> User registration form with JavaScript validation and PHP/MySQL storage. | ![Register](https://github.com/ImZaharias/Eshop-Sport/blob/main/4.png) |
-| ℹ️ **About Page** <br> Information about the creator, text formatting, and technology list. | ![About](https://github.com/ImZaharias/Eshop-Sport/blob/main/5.1.png) |
+| 🏠 **Home Page** <br> Contains general info, embedded weather (iframe), and product suggestions. | ![Home](https://github.com/ImZaharias/Esport_Shop/blob/main/1.png) |
+| 🛍️ **Products Page** <br> Displays a table with products, categories, prices, and images. | ![Products](https://github.com/ImZaharias/Esport_Shop/blob/main/2.png) |
+| 🛠️ **Services Page** <br> Shows available services and an embedded map with store locations. | ![Services](https://github.com/ImZaharias/Esport_Shop/blob/main/3.png) |
+| ✍️ **Register Form** <br> User registration form with JavaScript validation and PHP/MySQL storage. | ![Register](https://github.com/ImZaharias/Esport_Shop/blob/main/4.png) |
+| ℹ️ **About Page** <br> Information about the creator, text formatting, and technology list. | ![About](https://github.com/ImZaharias/Esport_Shop/blob/main/5.1.png) |
 
 ---
 
